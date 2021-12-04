@@ -1,5 +1,6 @@
 using Genie.Router
 using HellostipplesController 
+using IrisClusteringsController
 using Genie.Renderer.Html
 using Stipple, StippleUI
 
@@ -9,3 +10,5 @@ end
 
 
 route("/hello", HellostipplesController.hello_stipple)
+
+route("/iris", IrisClusteringsController.iris_clustering)
